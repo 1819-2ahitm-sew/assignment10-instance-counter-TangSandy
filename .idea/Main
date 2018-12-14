@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+
+
+        Person person1 = new Person("Mario", "Bauer");
+        Person person2 = new Person("Lisa", "Maier");
+        Person person3 = new Person("Sarah", "Mueller");
+
+        System.out.print("Instance: " + Person.instance);
+    }
+}
